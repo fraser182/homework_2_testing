@@ -101,13 +101,13 @@ class FunctionsTest < MiniTest::Test
 
    def test_volume_of_sphere()
      volume_sphere_result = volume_of_sphere(3)
-     assert_equal(12*Math::PI, volume_sphere_result)
+     assert_equal(113.10, volume_sphere_result)
    end
 
 # (80°F − 32) × 5/9 = 26.667°C
   def test_fahrenheit_to_celsius()
     f_to_c_result = fahrenheit_to_celsius(80)
-    assert_equal(48*(5.0/9.0), f_to_c_result)
+    assert_equal(26.67, f_to_c_result)
   end
 
 end
