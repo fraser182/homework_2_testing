@@ -109,5 +109,4 @@ class FunctionsTest < MiniTest::Test
     f_to_c_result = fahrenheit_to_celsius(80)
     assert_equal(26.67, f_to_c_result)
   end
-
-end
+end 

@@ -77,4 +77,4 @@ end
 def fahrenheit_to_celsius(f_temp)
  celcius = (f_temp - 32)*(5.0/9.0)
   return celcius.round(2)
-end
+end 
